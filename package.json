@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
@@ -14,8 +14,5 @@
   "devDependencies": {
     "eslint": "8.6.0",
     "eslint-config-next": "12.0.7"
-  },
-  "engines": {
-    "node": ">= 16.22.0"
   }
 }
