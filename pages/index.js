@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1>Holaaaa</h1>
+      <h1>Facu salame pero en el front nomas</h1>
     </div>
   )
 }
